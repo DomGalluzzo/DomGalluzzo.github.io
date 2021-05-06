@@ -10,6 +10,15 @@ https://templatemo.com/tm-503-newline
 	font-size: 12px;
 }
 
+.about {
+	padding: 1em 27em;
+}
+@media screen and (max-width: 768px) {
+	.about {
+		padding: 1em;
+	}
+}
+
 .project-links {
 	font-size: 1.25em;
 	font-weight: bold;
@@ -520,7 +529,7 @@ video::-webkit-media-controls {
 }
 
 .fivth-content .left-info .social-icons {
-	margin-top: 60px;
+	text-align: center;
 }
 
 .fivth-content .left-info ul {
@@ -531,10 +540,10 @@ video::-webkit-media-controls {
 .fivth-content .left-info i {
 	margin-right: 10px;
 	color: #fff;
-	font-size: 15px;
+	font-size: 1.25em;
 	width: 34px;
 	height: 34px;
-	background-color: #cdcdcd;
+	background-color: #ffbb05;
 	display: inline-block;
 	border-radius: 50%;
 	text-align: center;
@@ -542,7 +551,7 @@ video::-webkit-media-controls {
 }
 
 .fivth-content .left-info i:hover {
-	background-color: #ffbb05;
+	background-color: #aaa;
 	-moz-transition: all 0.3s linear;
 	-o-transition: all 0.3s linear;
 	-webkit-transition: all 0.3s linear;
