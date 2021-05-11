@@ -10,12 +10,40 @@ https://templatemo.com/tm-503-newline
 	font-size: 12px;
 }
 
-.about {
-	padding: 1em 27em;
+.me-picture {
+	height: 500px;
+	width: 553px;
+	object-fit: cover;
+	padding-top: 58px;
 }
+
+.about-writeup {
+	padding-top: 15rem;
+}
+
+.about {
+	padding: 0 4em;
+	font-size: 18px;
+}
+
+.about-me-title {
+	position: relative;
+	top: -25px;
+}
+
 @media screen and (max-width: 768px) {
 	.about {
 		padding: 1em;
+	}
+
+	.me-picture {
+		height: 400px;
+		width: 350px;
+		padding-top: 50px;
+	}
+
+	.about-writeup {
+		padding-top: 5rem;
 	}
 }
 
@@ -281,6 +309,8 @@ video::-webkit-media-controls {
 
 .first-content {
 	padding: 60px 0px;
+	height: 100vh;
+	margin-top: -140px;
 }
 
 .first-content p {
